@@ -156,6 +156,26 @@ body{
     background: #5222fd;
 }
 
+.container form .weather{
+    width: 100%;
+    margin-top: 30px;
+    background: #6b43ff;
+    color: #fff;
+    border: none;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.container form .weather:hover{
+    background: #5222fd;
+}
+
 .container .links{
     display: flex;
     justify-content: space-between;
